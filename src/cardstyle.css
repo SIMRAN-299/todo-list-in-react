@@ -1,0 +1,77 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main_container{
+    background-color:rgb(216, 180, 216);
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.to_do_list{
+    width:40vw;
+    height:80vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+}
+.heading{
+    background-color:purple;
+    height:30%;
+    
+
+    text-transform: uppercase;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+     
+     padding:0 25%;
+     font-size:2.5em;
+     width:100%;
+     color:white;
+
+     
+}
+.mybutton{
+    border:none;
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    font-size: 2.5em;
+    background-color:rgb(155, 49, 155);
+    font-weight: bolder;
+    margin-left:20px;
+}
+button:hover{
+    background-color: green;
+}
+.additem{
+    
+    width:80%;
+    
+}
+.addingbutton{
+    
+    padding:0 10%;
+}
+input{
+    border:none;
+    background-color: white;
+    font-size:1.5em;
+    border-bottom: 3px solid black;
+}
+ul{
+
+    width:80%;
+    padding-left: 70px;
+
+}
+li{
+    list-style-type: none;
+}
